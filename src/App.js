@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import Main from './Component/Main'
+import IdleCounter from './Component/IdelConuter/IdleCounter';
 
 function App() {
   return (
     <div className="App">
-		<Main />
-      
-
+		<IdleCounter />
     </div>
   );
 }
