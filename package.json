@@ -8,7 +8,9 @@
     "@testing-library/user-event": "^12.8.3",
     "@tippy.js/react": "^3.1.1",
     "react": "^17.0.2",
+    "react-color": "^2.19.3",
     "react-countup": "^4.3.3",
+    "react-datepicker": "^3.8.0",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
     "react-idle-timer": "^4.6.2",
@@ -18,10 +20,12 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+	"start": "mdx-deck src/deck/deck.mdx",
+    "startnew": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+ 
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "mdx-deck": "^4.1.1"
   }
 }
