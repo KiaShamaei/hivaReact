@@ -4,6 +4,7 @@ import './App.css';
 
 // import ColorPicker from './Component/ColorPicker.js/Color';
 import Date from './Component/DatePicker/DatePicker';
+import GetCurrentPosition from './Component/GetCurrentposition';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
     <div className="App">
 		{/* <IdleCounter /> */}
 		{/* <ColorPicker /> */}
-		<Date/>
+		{/* <Date/> */}
+		<GetCurrentPosition/>
     </div>
   );
 }
